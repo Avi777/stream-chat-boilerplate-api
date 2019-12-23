@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-To spin this up, clone it and run `yarn install` within the root directory, then run `yarn start`. Create a `.env` file within the main directory with the following environment variables found on https://getstream.io/dashboard:
+To spin this up, clone it and run `npm install` within the root directory, then run `npm start`. Create a `.env` file within the main directory with the following environment variables found on https://getstream.io/dashboard:
 
 ```
 NODE_ENV=production
@@ -75,8 +75,8 @@ To retrieve a token, hit the `/v1/token` endpoint with an HTTP `POST` with the f
 
 ```json
 {
-    "id": "NG5y5qtDdaX9q5f",
-    "name": "Nick Parsons"
+	"id": "NG5y5qtDdaX9q5f",
+	"name": "Peter Mbanugo"
 }
 ```
 
